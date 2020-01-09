@@ -8,7 +8,6 @@ import javafx.scene.control.TextField;
 
 public class MainWindowController{
 
-
     @FXML
     private ComponenteHolaMundo comp;
 
@@ -16,11 +15,7 @@ public class MainWindowController{
     private Button button;
 
     @FXML
-    private TextField textField;
-
-    @FXML
     void saludar(ActionEvent actionEvent){
-        comp.setNombre(textField.getText());
         comp.saluda();
     }
 }
